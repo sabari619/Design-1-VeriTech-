@@ -1,0 +1,92 @@
+
+  .org-chart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .org-node {
+    text-align: center;
+    margin: 40px;
+    
+  }
+  .org-node img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .org-node p {
+    margin-top: 10px;
+  }
+ 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    
+}
+body{
+    overflow-x: hidden;
+}
+.icn{
+    font-size: 131px;
+    color: magenta;
+    transform: rotate(90deg);
+    margin-top: -18px;
+}
+.div1{
+    display: flex;
+    justify-content: end;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.cmpname{
+    background: magenta;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 7px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.abtcmp{
+    width: 945px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.div4{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    font-size: 25px;
+}
+.icnn{
+    font-size: 131px;
+    color: magenta;
+    transform: rotate(270deg);
+    margin-top: -18px;
+}
+.pp{
+    color: magenta;
+    font-style: italic;
+    opacity: 0.7;
+}
+
